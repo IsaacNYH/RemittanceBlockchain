@@ -1,0 +1,3 @@
+2025-10-25 11:51:10 CST LOG:  database system was shut down at 2025-10-25 04:39:22 CST
+2025-10-25 11:56:10 CST LOG:  checkpoint starting: time
+2025-10-25 11:56:10 CST LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.003 s, total=0.019 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/1A8B960, redo lsn=0/1A8B908

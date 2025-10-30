@@ -1,0 +1,14 @@
+2025-08-24 10:34:38 CST LOG:  database system was shut down at 2025-08-24 04:20:20 CST
+2025-08-24 10:39:39 CST LOG:  checkpoint starting: time
+2025-08-24 10:39:39 CST LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.002 s, total=0.013 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/1A802A8, redo lsn=0/1A80250
+2025-08-24 10:57:48 CST LOG:  checkpoint starting: time
+2025-08-24 10:57:49 CST LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.319 s, sync=0.005 s, total=0.332 s; sync files=4, longest=0.002 s, average=0.002 s; distance=2 kB, estimate=2 kB; lsn=0/1A80B68, redo lsn=0/1A80B10
+2025-08-24 11:01:00 CST ERROR:  syntax error at or near "SELECT" at character 21
+2025-08-24 11:01:00 CST STATEMENT:  SHOW data_directory
+	SELECT * FROM transactions;
+2025-08-24 11:01:34 CST FATAL:  password authentication failed for user "postgres"
+2025-08-24 11:01:34 CST DETAIL:  Connection matched file "C:/Users/User/Documents/RemittanceSystem/database/pg_hba.conf" line 117: "host    all             all             ::1/128                 scram-sha-256"
+2025-08-24 11:02:17 CST LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-24 11:02:48 CST LOG:  checkpoint starting: time
+2025-08-24 11:02:48 CST LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.324 s, sync=0.005 s, total=0.336 s; sync files=4, longest=0.002 s, average=0.002 s; distance=2 kB, estimate=2 kB; lsn=0/1A81498, redo lsn=0/1A81440

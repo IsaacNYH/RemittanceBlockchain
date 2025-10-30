@@ -1,0 +1,7 @@
+2025-08-16 16:27:54 CST LOG:  database system was interrupted; last known up at 2025-08-16 10:20:42 CST
+2025-08-16 16:27:57 CST LOG:  database system was not properly shut down; automatic recovery in progress
+2025-08-16 16:27:57 CST LOG:  redo starts at 0/1A7EB88
+2025-08-16 16:27:57 CST LOG:  invalid record length at 0/1A7EC90: expected at least 24, got 0
+2025-08-16 16:27:57 CST LOG:  redo done at 0/1A7EC58 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2025-08-16 16:27:57 CST LOG:  checkpoint starting: end-of-recovery immediate wait
+2025-08-16 16:27:57 CST LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.003 s, total=0.019 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/1A7EC90, redo lsn=0/1A7EC90
